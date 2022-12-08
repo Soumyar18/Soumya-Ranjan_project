@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(244, 235, 235); */
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.933) ;
+    height: 7vh;
+}
+nav ul{
+    display: flex;
+    margin-right: 50%;
+}
+  
+nav ul li{
+    margin-right: 15%;
+    list-style: none;
+    color: antiquewhite;
+    font-size: 13px;
+    padding: 5px 0px;
+
+}
+button{
+    background-color: #c363aa;
+    color: antiquewhite;
+    margin: 5px;
+    padding: 1px;
+    border-radius: 8px;
+    border: navajowhite;
+}
+.banner-img{
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 28%;
+    color: rgb(210, 247, 80);
+    padding: 0px 97px;
+}
+.banner-text h1{
+font-weight: bold;
+}
+
